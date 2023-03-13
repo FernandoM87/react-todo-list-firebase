@@ -93,10 +93,9 @@ function TodoList() {
                  editTodo= {editTodo}
                  deleteTodo= {deleteTodo}
                  />
-            })};
+            })}
 
           </ul>
-          <Todo/>
       </div>
     )
   }

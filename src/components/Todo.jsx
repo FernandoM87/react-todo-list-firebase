@@ -24,7 +24,7 @@ function Todo(props) {
                 defaultChecked={props.completed}
                 onChange={() => props.toggleCompleted()} />
                 {props.desc}
-                <div className="btn.group">
+                <div className="btn-group">
                     <button type="button" onClick={() => setIsEditing(true)}>Edit</button>
                     <button type="button" onClick={() => props.deleteTodo(props.id)}>Delete</button>
                 </div>
@@ -40,7 +40,7 @@ function Todo(props) {
                     id={props.id}
                     onChange = {handleChange}
                     value={input}/>
-                <div className="btn.group">
+                <div className="btn-group">
                     <button type="button" onClick={() => setIsEditing(false)}>Cancel</button>
                     <button type="submit">Save</button>
                 </div>
